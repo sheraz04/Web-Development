@@ -1,0 +1,76 @@
+@font-face{
+    font-family:'GOT';
+    src:url('GOT.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: #0b0f0e;
+}
+.nav{
+    width: calc(100% - 100px);
+    padding: 20px 50px;
+    color: #f8f8f8;
+    font-family: 'GOT';
+    overflow: auto;
+}
+ul{
+    margin-top: -25px;
+    float: right;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: .9rem;
+    transition: .4s;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #f9eaa5;
+}
+.content{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+}
+.content .left{
+    width: 50%;
+     color: #f8f8f8;
+    font-family: 'GOT';
+}
+.content .text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text h1{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    letter-spacing: 1.1rem;
+}
+.text h2{
+    margin-bottom: 30px;
+}
+.text a{
+    text-align: center;
+    color: #030303;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: #f9eaa5;
+    cursor: pointer;
+    transition: .4s;
+}
+.text a:hover{
+    background-color: #fff6cf;
+}
+.content img{
+    position: relative;
+    width: 50%;
+    float: right;
+}

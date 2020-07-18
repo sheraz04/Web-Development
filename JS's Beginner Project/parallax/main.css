@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+h1,h2{
+    font-family: 'Roboto',sans-serif;
+}
+p{
+    font-family: 'Montserrat',sans-serif;
+}
+.full{
+
+    width: calc(100vw);
+    height: calc(100vh);
+}
+.container{
+    width: 80%;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.landing{
+    
+    background-image: url(https://images.unsplash.com/photo-1496737018672-b1a6be2e949c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1782&q=80);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ .welcome{
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 5px 5px rgba(64,64,64,.7);
+    padding: 30px 10px;
+}
+ .welcome h1{
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.landing .welcome p{
+    line-height: 1.8rem;
+}
+.main{
+    padding: 0;
+    width: 100vw;
+    height:600px;
+    position: relative;
+    text-align: center;
+}
+.main .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.main  h2{
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+.main .gallery img{
+    width: calc(25% - 10px);
+    height: 200px;
+    margin: 5px;
+}
+.description{
+    background-image: url(https://images.unsplash.com/photo-1414438992182-69e404046f80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1162&q=80);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
